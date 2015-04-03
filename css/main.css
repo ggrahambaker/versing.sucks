@@ -9,6 +9,11 @@ html {
 
 body {
     color: rgb(231, 18, 18);
+    height: 300vh;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -19,6 +24,8 @@ h1 {
     text-align: center;
     margin-top: 15vh;
     margin-bottom: 5vw;
+    cursor: pointer; 
+    cursor: hand;
 }
 
 h2 {
@@ -32,7 +39,7 @@ h1, h2 {
 
 table {
     max-width: 95vw;
-    margin: 0 auto 20vh auto;
+    margin: 0 auto 0 auto;
     font-size: 4.3vw;
     /*border-collapse: separate;*/
 }
@@ -78,8 +85,19 @@ a:visited {
     color: purple;   
 }
 
+#yeah {
+    padding-top: 260vh;
+    margin-bottom: 7px;
+    text-align: center;
+}
+#yeah a {
+    color: rgb(231, 18, 18);
+    text-decoration: underline;
+}
 
-
+#yeah a:hover {
+    color: black;
+}
 
 
 
