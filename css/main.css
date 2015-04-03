@@ -17,7 +17,6 @@ a {
 }
 
 h1 {
-    /*min-width: 320px;*/
     font-size: 13vw;
     line-height: .666em;
     font-style: italic;
@@ -32,16 +31,15 @@ h2 {
     text-align: center;
 }
 h1, h2 {
-    -webkit-user-select: none; /* Chrome/Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+ */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 table {
     max-width: 95vw;
     margin: 0 auto 0 auto;
     font-size: 4.3vw;
-    /*border-collapse: separate;*/
 }
 
 td, th {
@@ -58,7 +56,6 @@ td:hover {
     border: 5px double black;
     color: black;
 }
-
 
 @media (min-width: 700px) {
     table {
