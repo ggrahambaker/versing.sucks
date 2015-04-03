@@ -25,17 +25,17 @@ h2 {
 }
 
 table {
-    max-width: 75vw;
+    max-width: 95vw;
     margin: 0 auto;
-    text-align: right;
-    border-collapse: separate;
-    border-spacing: 10px;
+    padding-bottom: 10vh;
+    /*border-collapse: separate;*/
 }
 
 td, th {
     border: 5px solid rgb(260, 222, 235);
-    padding: 5px 3px 2px 3px;
-    max-width: 10vw;
+    padding: 5px 5px 2px 5px;
+    text-align: left;
+    /*max-width: 10vw;*/
 }
 th {
     padding-bottom: 0;
@@ -46,15 +46,47 @@ td:hover {
     color: black;
 }
 
+
+@media (min-width: 700px) {
+    td, th {
+        text-align: right;
+    }
+}
+
 caption {
     font-weight: bold;
 }
 
 a {
-    color: blue;
+    color: #1395DB;
 }
 
 a:hover {
     color: black;
 }
+
+a:visited {
+    color: purple;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
