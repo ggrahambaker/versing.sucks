@@ -1,9 +1,4 @@
 $( document ).ready(function() {
-	
-	// $( "#plus" ).click(function() {
-	// 	$( this ).preventdefault();
- //  		$( this ).slideUp();
-	// });
 
 	$('#versing').click(function() {
 		var textSize = $('#versing').css('font-size');
@@ -26,8 +21,5 @@ $( document ).ready(function() {
 		console.log(toRet + ' in px peel');
 		toRet *= (parseFloat(".96"));
 		return toRet + 'px';
-	}
-
-
-			
+	}			
 });
