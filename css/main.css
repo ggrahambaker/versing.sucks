@@ -9,7 +9,7 @@ html {
 
 body {
     color: rgb(231, 18, 18);
-    height: 300vh;
+    height: 400vh;
 }
 
 a {
@@ -38,6 +38,7 @@ h1 {
 
 h2 {
     text-align: center;
+    margin-bottom: 3vh;
 }
 h1, h2 {
     -webkit-user-select: none;
@@ -85,7 +86,7 @@ caption {
 }
 
 #yeah {
-    padding-top: 260vh;
+    padding-top: 360vh;
     margin-bottom: 7px;
     text-align: center;
 }
