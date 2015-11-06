@@ -1,15 +1,26 @@
+
+/*html {
+    color: #222;
+    background: rgb(260, 222, 235);
+    font-size: 1em;
+    line-height: 1.4;
+    
+    
+}
+*/
+
 html {
     color: #222;
     background: rgb(260, 222, 235);
     font-size: 1em;
     line-height: 1.4;
     font-family: serif;
-    text-transform: uppercase;
+    color: rgb(231, 18, 18);
 }
 
 body {
-    color: rgb(231, 18, 18);
-    height: 400vh;
+    padding-bottom: 100px;
+    border-bottom: 7px solid #ff0000
 }
 
 a {
@@ -25,8 +36,13 @@ a:visited {
     color: black;
 }
 
+img.logo {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
 h1 {
-    font-size: 13vw;
+    font-size: 7vw;
     line-height: .666em;
     font-style: italic;
     text-align: center;
@@ -36,6 +52,15 @@ h1 {
     cursor: hand;
 }
 
+.linkz {
+    font-size: 2vw;
+    line-height: .666em;
+    font-style: italic;
+    margin-top: 15vh;
+    margin-bottom: 5vw;
+    cursor: pointer; 
+    cursor: hand;
+}
 h2 {
     text-align: center;
     margin-bottom: 3vh;
@@ -80,15 +105,83 @@ td:hover {
         padding: 5px 5px 2px 5px;
     }
 }
-
+#versing {
+    font-family: serif;
+    text-transform: uppercase;
+}
 caption {
     font-weight: bold;
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link {
+    text-decoration: none;
+}
+#smallerContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+#cont {
+    text-align: center;
+    font-size: 18px;
+}
+ul#menu {
+    margin-top: 100px;
+}
+ul#menu li{
+    display: inline;
+    margin-right: 10px;
+    color: #222;
+}
+#bandcamp {
+    display: block;
+    margin: 0 auto;
+}
+.embed {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.soundcloud {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose:link {
+    text-decoration: none;  
+    font-family: serif;
+    color: white;
+}
+
+/* visited link */
+.choose:visited {
+    text-decoration: none;   
+    font-family: serif;
+    color: white;
+}
+
+
+/* mouse over link */
+.choose:hover {
+    text-decoration: none;   
+    color: rgb(231, 18, 18);
+}
+
+/* selected link */
+.choose:active {
+    text-decoration: none;   
+    color: white;
+} 
+
+
 #yeah {
     padding-top: 360vh;
     margin-bottom: 7px;
-    text-align: center;
+    text-align: left;
 }
 #yeah a {
     color: rgb(231, 18, 18);
@@ -99,21 +192,7 @@ caption {
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cell {
+    text-transform: uppercase;
+}
 
